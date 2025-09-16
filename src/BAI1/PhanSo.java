@@ -97,11 +97,19 @@ public class PhanSo {
     }
     //hamtoigian
     public void toiGianPS(){
-        int x=timUSCLN(tuSo102, tuSo102);
+        int x=timUSCLN(tuSo102, mauSo102);
         tuSo102/=x;
         mauSo102/=x;
         
         
+    }
+
+    void hienthiPS102() {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
+
+    void hienThiPS102() {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
     }
     
 }
