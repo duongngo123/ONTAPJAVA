@@ -24,6 +24,7 @@ public class QLHS {
 
 		System.out.print("Nhap vao so luong hoc sinh: ");
 		int n = sc.nextInt();
+                sc.nextLine();
 
 		System.out.println("Nhap thong tin cho hoc sinh trong danh sach:");
 		for (int i = 0; i < n; i++) {
